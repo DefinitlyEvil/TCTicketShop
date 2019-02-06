@@ -1,6 +1,8 @@
 TCTicketShop
 ============
 
+![sign](https://raw.githubusercontent.com/DefinitlyEvil/TCTicketShop/master/images/sign.jpg)
+
 ## Sell tickets with signs! 
 ## Current version for: Bukkit/Spigot 1.13.2
 
