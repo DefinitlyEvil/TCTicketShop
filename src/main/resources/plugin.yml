@@ -1,0 +1,5 @@
+name: TCTicketShop
+version: ${project.version}
+main: org.dragonet.tcticketshop.TCTicketShop
+api-version: 1.13
+depend: ["Vault", "TrainCarts"]
