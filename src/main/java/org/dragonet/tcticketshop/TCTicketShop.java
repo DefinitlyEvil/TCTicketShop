@@ -73,7 +73,7 @@ public final class TCTicketShop extends JavaPlugin implements Listener {
     @EventHandler(priority = EventPriority.LOWEST)
     public void onInteract(PlayerInteractEvent event) {
         if(event.getAction() != Action.LEFT_CLICK_BLOCK) return;
-        if(!event.getClickedBlock().getType().equals(Material.SIGN)) return;
+        if(!event.getClickedBlock().getType().equals(Material.SIGN) && !event.getClickedBlock().getType().equals(Material.WALL_SIGN)) return;
         Sign sign = (Sign) event.getClickedBlock().getState();
         if(!sign.getLine(0).equals(SIGN_HEADER)) return;
         if(!event.getPlayer().hasPermission("tcticketshop.use")) {
